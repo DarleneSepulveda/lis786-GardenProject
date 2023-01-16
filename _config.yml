@@ -1,5 +1,5 @@
 title: Site Name and Logo
-theme: minima 2
+theme: minima
 collections:
   collection:
     output: true
