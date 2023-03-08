@@ -1,12 +1,12 @@
 title: The Garden Project
 theme: minima
 collections:
-  collection:
+  designs:
     output: true
 
 
 defaults:
   - scope:
-      type: "collection"
+      type: "designs"
     values:
-      layout: collection_item
+      layout: design

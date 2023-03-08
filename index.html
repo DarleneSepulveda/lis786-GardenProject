@@ -40,3 +40,10 @@ layout: home
 </div>
 <p class="sub"><center>While the aspect of viewing through the gallery and shopping for shirts are unavailable at the moment, 
     feel free to just blankly stare at this webpage.</center></p>
+
+<h3>Recent Designs</h3>
+{% for design in site.designs %}
+    <h4>{{ design.title }}</h4>
+    <p><img src="{{design.image}}" alt="{design.alt}"> </p>
+
+{% endfor %}
