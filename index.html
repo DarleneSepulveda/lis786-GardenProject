@@ -1,5 +1,5 @@
 ---
-title: Hiya!
+title: Hello!
 layout: home 
 ---
 <style>
@@ -29,6 +29,11 @@ layout: home
     .sub{
         padding:10px;
     }
+    .recents{
+        border: 1px;
+        border-color: grey;
+        display: inline;
+    }
 
 </style>
 <div class="welc">
@@ -44,7 +49,9 @@ layout: home
 <h3>Recent Designs</h3>
 {% for design in site.designs %}
 {% if machine.category == 'new' %}
-    <h4>{{ design.title }}</h4>
-    <p><img src="{{design.image}}" alt="{design.alt}"> </p>
+    <div class="recents">
+        <h4>{{ design.title }}</h4>
+        <p><img src="{{design.image}}" alt="{{design.alt}}"> </p>
+    </div>
 {% endif %}
 {% endfor %}
