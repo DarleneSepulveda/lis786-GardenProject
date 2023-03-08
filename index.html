@@ -43,7 +43,8 @@ layout: home
 
 <h3>Recent Designs</h3>
 {% for design in site.designs %}
+{% if machine.category == 'new' %}
     <h4>{{ design.title }}</h4>
     <p><img src="{{design.image}}" alt="{design.alt}"> </p>
-
+{% endif %}
 {% endfor %}
