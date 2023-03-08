@@ -1,5 +1,4 @@
 ---
-title: Purchasing
 layout: page
 permalink: /product
 product_image: imageplaceholder.jpeg
