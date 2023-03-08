@@ -1,8 +1,9 @@
 ---
+title: Design
 layout: page
-permalink: /shop/product
+permalink: /shop/placeholder
 product_image: imageplaceholder.jpeg
-product_name: Product Name
+product_name: Design
 img_alt: drawing of (flower)
 ---
 {% include shop-item.html %}
