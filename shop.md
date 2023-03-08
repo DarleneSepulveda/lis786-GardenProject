@@ -4,7 +4,7 @@ layout: page
 permalink: /shop
 ---
 
-### Recent Designs
+### Designs
 {% for design in site.designs %}
 #### {{ design.title }}
 ![design.alt](design.image)
