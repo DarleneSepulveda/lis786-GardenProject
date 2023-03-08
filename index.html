@@ -29,6 +29,12 @@ layout: home
     .sub{
         padding:10px;
     }
+    .recent{
+        border: 1px;
+        border-color: grey;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 
 </style>
 <div class="welc">
@@ -43,8 +49,8 @@ layout: home
 
 <h3>Recent Designs</h3>
 {% for design in site.designs %}
-{% if machine.category == 'new' %}
+    <div class="recent">
         <h4>{{ design.title }}</h4>
         <p><img src="{{design.image}}" alt="{{design.alt}}"> </p>
-{% endif %}
+    </div>
 {% endfor %}
