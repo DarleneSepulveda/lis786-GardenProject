@@ -4,10 +4,10 @@ collections:
   designs:
     output: true
 
-header-pages:
--shop.md
--cart.md
--about.md
+header_pages: 
+  - shop.md
+  - cart.md
+  - about.md
 
 
 defaults:
