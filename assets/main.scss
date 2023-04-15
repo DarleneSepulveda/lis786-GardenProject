@@ -1,5 +1,6 @@
 ---
 ---
+$base-font-size:   30px !default;
 
 @import "{{ site.theme }}";
 
@@ -10,4 +11,3 @@ main{
     background-color: white;
     margin: 100px,0px;
 }
-$base-font-size:   30px !default;
