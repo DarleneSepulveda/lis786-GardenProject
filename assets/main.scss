@@ -6,7 +6,7 @@ body{
     background-color: rgb(220, 243, 225);
 }
 main{
-    background-color: green;
+    background-color: white;
     margin: 100px,0px;
 }
 //The Garden Project Size
@@ -18,9 +18,9 @@ page.title{
 }
 //It is the Title, for home.
 .page-heading{
-    font-size: x-small;
+    font-size: hidden;
 }
-//This is the Title, for posts?
+//This is the Title, for pages.
 .post-title{
-    font-size: x-small;
+    font-size: hidden;
 }
