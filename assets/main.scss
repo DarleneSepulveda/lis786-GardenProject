@@ -6,7 +6,7 @@ body{
     background-color: rgb(220, 243, 225);
 }
 main{
-    background-color: orangered;
+    background-color: yellowgreen;
     margin: 100px,0px;
 }
 //The Garden Project Size
@@ -16,7 +16,11 @@ main{
 page.title{
     font-size: 200px;
 }
-//It is the Title, however it only applies to home?
+//It is the Title, for home.
 .page-heading{
+    font-size: x-small;
+}
+//This is the Title, for posts?
+.post-header{
     font-size: x-small;
 }
