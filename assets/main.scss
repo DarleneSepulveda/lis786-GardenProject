@@ -3,7 +3,7 @@
 @import "{{ site.theme }}";
 
 font{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 body{
     background-color: rgb(220, 243, 225);
@@ -17,7 +17,7 @@ main{
 }
 //Page content Editting
 .page-content{
-    background-image: pastel-plant-pattern;
+    background-image: pastel-plant-pattern.jpg;
     margin: auto;
 }
 //It is the Title, for home.
