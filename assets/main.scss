@@ -4,13 +4,11 @@
 
 font{
 }
-head{
-    background-color: aqua;
-}
 body{
     background-color: rgb(220, 243, 225);
 }
 main{
+    background-color: black;
 }
 footer{
     padding:0px;
@@ -21,8 +19,8 @@ footer{
 }
 //Page content is similar to main, as far as I know.
 .page-content{
-    background-color: orange;
-    width: 900px;
+    background-color: white;
+    width: 800px;
     margin-right: auto;
     margin-left: auto;
 }
