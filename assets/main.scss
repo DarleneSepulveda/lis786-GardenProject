@@ -13,7 +13,7 @@ body{
 }
 main{
     background-color: white;
-    margin: 100px,100px;
+    margin: auto;
 }
 footer{
     margin: 10px, 10px;
@@ -22,14 +22,9 @@ footer{
 //The Garden Project Size
 .site-title{
 }
-//Page content Editting
+//Page content is similar to main, as far as I know.
 .page-content{
-    background-color:rgb(116, 108, 97);
-    margin: 0px,0px;
-}
-//I wonder what the wrapper does
-.wrapper{
-    background-color: pink;
+
 }
 //It is the Title, for home.
 .page-heading{
