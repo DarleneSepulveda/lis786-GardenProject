@@ -5,13 +5,12 @@
 font{
 }
 head{
-    visibility: hidden;
+    background-color: aqua;
 }
 body{
     background-color: rgb(220, 243, 225);
 }
 main{
-    background-color: white;
     margin: 1000px, 1000px;
 }
 footer{
@@ -24,6 +23,8 @@ footer{
 //Page content is similar to main, as far as I know.
 .page-content{
     background-color: blue;
+    margins: auto;
+    fixed-width: 100px;
 }
 //It is the Title, for home.
 .page-heading{
