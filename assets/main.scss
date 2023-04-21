@@ -4,12 +4,13 @@
 
 font{
 }
-body{
+.site-header{
     background-color: rgb(220, 243, 225);
 }
-main{
-    background-color: black;
+body{
+    background-color:white;
 }
+
 footer{
     padding:0px;
 }
@@ -17,7 +18,7 @@ footer{
 //The Garden Project Size
 .site-title{
 }
-//Page content is similar to main, as far as I know.
+//Page content is basically the center wrap
 .page-content{
     background-color: white;
     width: 800px;
