@@ -3,7 +3,7 @@
 @import "{{ site.theme }}";
 
 font{
-    font-family:'Times New Roman', Times, serif;
+    font-family:;
 }
 head{
     visibility: hidden;
@@ -24,8 +24,8 @@ footer{
 }
 //Page content is similar to main, as far as I know.
 .page-content{
-    background-color: orange;
-    margin: 10px, 30px;
+    background-color: yellow;
+    margin: 1000px, 30000px;
 }
 //It is the Title, for home.
 .page-heading{
