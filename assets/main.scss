@@ -11,6 +11,7 @@ body{
     background-color: rgb(220, 243, 225);
 }
 main{
+    margins:auto;
 }
 footer{
     padding:0px;
@@ -22,7 +23,7 @@ footer{
 //Page content is similar to main, as far as I know.
 .page-content{
     background-color: red;
-    margins: 100px, 100px;
+    margins: auto;
     width: 500px;
 }
 //It is the Title, for home.
