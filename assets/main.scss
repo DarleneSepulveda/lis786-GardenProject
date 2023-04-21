@@ -2,6 +2,9 @@
 ---
 @import "{{ site.theme }}";
 
+font{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-color: rgb(220, 243, 225);
 }
@@ -15,6 +18,7 @@ main{
 //Page content Editting
 .page-content{
     background-image: pastel-plant-pattern;
+    margin: auto;
 }
 //It is the Title, for home.
 .page-heading{
