@@ -16,7 +16,7 @@ main{
     margin: auto;
 }
 footer{
-    margin: 10px, 10px;
+    visibility: hidden;
 }
 
 //The Garden Project Size
@@ -24,7 +24,8 @@ footer{
 }
 //Page content is similar to main, as far as I know.
 .page-content{
-
+    background-color:pink;
+    margin: 100px;
 }
 //It is the Title, for home.
 .page-heading{
