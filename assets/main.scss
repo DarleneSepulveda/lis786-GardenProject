@@ -5,6 +5,9 @@
 font{
     font-family:'Times New Roman', Times, serif
 }
+head{
+    visibility: hidden;
+}
 body{
     background-color: rgb(220, 243, 225);
 }
@@ -15,6 +18,7 @@ main{
 footer{
     margin: 10px, 10px;
 }
+
 //The Garden Project Size
 .site-title{
 }
