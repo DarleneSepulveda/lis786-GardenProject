@@ -11,8 +11,15 @@ body{
     background-image: url(https://github.com/DarleneSepulveda/lis786-GardenProject/blob/main/assets/pastelPlantPattern.jpg);
 }
 
-footer{
-    padding:0px;
+//exploring footer classes!
+.site-footer{
+    background-color: red;
+}
+.site-footer h-card{
+    background-color: orange;
+}
+.site-footer-col{
+    background-color: yellow;
 }
 
 //The Garden Project Size
