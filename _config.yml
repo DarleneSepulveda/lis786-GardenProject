@@ -4,8 +4,8 @@ collections:
   designs:
     output: true
 
-
-background: pastelPlantPattern.jpg
+image:
+  background: pastelPlantPattern.jpg
 
 
 header_pages: 
