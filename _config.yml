@@ -4,9 +4,6 @@ collections:
   designs:
     output: true
 
-image:
-  background: pastelPlantPattern.jpg
-
 
 header_pages: 
   - shop.md
