@@ -6,6 +6,7 @@ font{
 }
 .site-header{
     background-color: rgb(220, 243, 225);
+    box-shadow: -1px 0px 4px rgb(207, 207, 207);
 }
 body{
     background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/pastelPlantPattern.jpg);
@@ -17,7 +18,7 @@ body{
     padding:20px 0px 0px 0px;
     margin:0px;
     border:0px;
-    box-shadow: 1px 0px 5px rgb(207, 207, 207);
+    box-shadow: 1px 0px 4px rgb(207, 207, 207);
 }
 //The Garden Project Size
 .site-title{
@@ -28,7 +29,7 @@ body{
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 0px 0px 1px rgb(207, 207, 207);
+    box-shadow: 0px 0px 5px rgb(207, 207, 207);
 }
 //It is the Title, for home.
 .page-heading{
