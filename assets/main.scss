@@ -2,16 +2,25 @@
 ---
 @import "{{ site.theme }}";
 
-font{
-}
+
 .site-header{
     background-color: white;
     box-shadow: -1px 0px 4px rgb(207, 207, 207);
     padding: 5px;
 }
-.site-nav{
-    background-color: beige;
+//The Garden Project Size
+.site-title{
+    font-size: 70px;
 }
+.menu-icon{
+    background-color: blue;
+}
+.site-nav{
+    font-size: 20px;
+}
+
+
+
 body{
     background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/pastelPlantPattern.jpg);
 }
@@ -24,10 +33,7 @@ body{
     border:0px;
     box-shadow: 1px 0px 4px rgb(207, 207, 207);
 }
-//The Garden Project Size
-.site-title{
-    font-size: 20px;
-}
+
 //Page content is basically the center wrap
 .page-content{
     background-color: white;
