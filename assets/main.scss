@@ -5,8 +5,12 @@
 font{
 }
 .site-header{
-    background-color: rgb(220, 243, 225);
+    background-color: white;
     box-shadow: -1px 0px 4px rgb(207, 207, 207);
+    padding: 5px;
+}
+.site-nav{
+    background-color: beige;
 }
 body{
     background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/pastelPlantPattern.jpg);
@@ -22,6 +26,7 @@ body{
 }
 //The Garden Project Size
 .site-title{
+    font-size: 20px;
 }
 //Page content is basically the center wrap
 .page-content{
