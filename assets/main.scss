@@ -16,11 +16,11 @@
     text-decoration: none;
     color: grey;
 }
-.site-title::before{
-    background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/pothos1024_1.jpg);
+.site-title ::before{
+    background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png);
 }
-.menu-icon{
-    background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/pothos1024_1.jpg);
+.site-title ::before :hover{
+    background-image: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png);
 }
 .site-nav{
     font-size: 20px;
