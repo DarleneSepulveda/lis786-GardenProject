@@ -16,10 +16,11 @@
     text-decoration: none;
     color: grey;
 }
-.site-title ::before{
-    content: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png);
+.logo{
+    width: 30px;
+    height: 30px;
 }
-.site-title ::before :hover{
+.logo :hover{
     content: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png);
 }
 .site-nav{
