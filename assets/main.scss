@@ -19,7 +19,9 @@ $brand-color:      #2a7ae2;
     font-size: 35px;
 }
 a, a:hover {
+    text-decoration: none;
     color: #0037B3;
+    background-color: grey;
   }
   .site-title::before {
 	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png");
