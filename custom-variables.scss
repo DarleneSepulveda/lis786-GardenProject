@@ -1,9 +1,11 @@
 $brand-color: orange;
 
+a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  
 @import "minima";
 
 
 
-a:hover {
-  color: blue;
-}
