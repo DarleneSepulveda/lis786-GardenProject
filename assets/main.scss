@@ -6,6 +6,20 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
+a {
+    color: $brand-color;
+    text-decoration: none;
+  
+    &:visited {
+      color: darken($brand-color, 15%);
+    }
+  
+    &:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    
 @import "minima";
 @import "{{ site.theme }}";
 
