@@ -21,12 +21,12 @@ $brand-color:      #2a7ae2;
 a, a:hover {
     color: #0037B3;
   }
-.site-logo{
-    width: 30px;
-    height: 30px;
-}
-.site-logo :hover{
-    content: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png);
+  .site-title::before {
+	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
 }
 .site-nav{
     font-size: 15px;
