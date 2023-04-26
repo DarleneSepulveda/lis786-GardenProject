@@ -18,15 +18,11 @@ $brand-color:      #2a7ae2;
 .site-title{
     font-size: 35px;
 }
-a:hover{
-    text-decoration: none;
-    color: red;
-}
-.logo{
+.site-logo{
     width: 30px;
     height: 30px;
 }
-.logo :hover{
+.site-logo :hover{
     content: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png);
 }
 .site-nav{
