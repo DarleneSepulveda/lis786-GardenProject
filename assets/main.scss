@@ -1,5 +1,10 @@
 ---
 ---
+
+$base-font-family: HelveticaNeu;
+$brand-color: orange;
+
+@import "minima";
 @import "{{ site.theme }}";
 
 
@@ -11,10 +16,10 @@
 //The Garden Project Size
 .site-title{
     font-size: 35px;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: none;
-    font-weight: bold;
     color: red;
 }
 .logo{
