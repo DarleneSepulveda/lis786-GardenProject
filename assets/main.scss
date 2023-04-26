@@ -20,7 +20,7 @@ $brand-color:      #2a7ae2;
 }
 a, a:hover {
     text-decoration: none;
-    color: #0037B3;
+    color: $brand-color;
     background-color: grey;
   }
   .site-title::before {
