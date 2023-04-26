@@ -22,7 +22,7 @@ $lm-link-hover-color:      yellow;
 a:hover {
     text-decoration: none;
     color: $brand-color;
-    background-color: grey;
+    background-color: orange;
   }
   .site-title::before {
 	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png");
@@ -30,7 +30,7 @@ a:hover {
 	position: relative;
 	width: 0px;
     height: 0px;
-	top: 5px;
+	top: 0px;
 }
 .site-nav{
     font-size: 15px;
