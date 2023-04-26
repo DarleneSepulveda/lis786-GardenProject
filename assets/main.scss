@@ -1,9 +1,9 @@
 ---
 ---
 
-$lm-link-base-color:       red;
-$lm-link-visited-color:    orange;
-$lm-link-hover-color:      yellow;
+$link-base-color:       red;
+$link-visited-color:    orange;
+$link-hover-color:      yellow;
 
     
 @import "minima";
@@ -22,7 +22,6 @@ $lm-link-hover-color:      yellow;
 a:hover {
     text-decoration: none;
     color: $brand-color;
-    background-color: orange;
   }
   .site-title::before {
 	display: inline-block;
