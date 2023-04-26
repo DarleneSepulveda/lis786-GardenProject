@@ -1,8 +1,10 @@
 ---
 ---
 
-$base-font-family: HelveticaNeu;
-$brand-color: orange;
+$base-font-family:;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
 
 @import "minima";
 @import "{{ site.theme }}";
