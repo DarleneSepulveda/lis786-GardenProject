@@ -24,10 +24,11 @@ a, a:hover {
     background-color: grey;
   }
   .site-title::before {
-	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov2.png");
+	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png");
 	display: inline-block;
 	position: relative;
 	width: 37px;
+    height: 37px;
 	top: 5px;
 }
 .site-nav{
