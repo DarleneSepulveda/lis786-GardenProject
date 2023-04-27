@@ -1,6 +1,6 @@
 title: The Garden Project
 theme: minima
-logo: /assets/logov1.png
+logo: ./assets/logov1.png
 collections:
   designs:
     output: true
