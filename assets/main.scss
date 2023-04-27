@@ -1,6 +1,5 @@
 ---
 ---
-$base-font-size:   6px !default;
 $base-font-weight: 2 !default;
 $small-font-size:  $base-font-size * 0.8 !default;
 
@@ -11,7 +10,7 @@ $small-font-size:  $base-font-size * 0.8 !default;
 .site-header{
     background-color: white;
     box-shadow: -1px 0px 4px rgb(207, 207, 207);
-    padding: 0px;
+    padding: 1px;
 }
 //The Garden Project Size
 .site-title{
