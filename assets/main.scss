@@ -17,6 +17,9 @@ $base-line-height: 20 !default;
 .site-title{
     font-size: 35px;
 }
+.site-title:hover{
+    color:red;
+}
 a:hover {
     text-decoration: none;
   }
