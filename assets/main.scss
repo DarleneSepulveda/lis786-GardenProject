@@ -24,11 +24,11 @@ a:hover {
     text-decoration: none;
   }
   .site-title::before {
+	content: url("https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png");
 	display: inline-block;
 	position: relative;
-	width: 0px;
-    height: 0px;
-	top: 0px;
+	width: 37px;
+	top: 5px;
 }
 .site-nav{
     font-size: 15px;
