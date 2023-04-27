@@ -1,6 +1,6 @@
 title: The Garden Project
 theme: minima
-logo: url(https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png)
+logo: url(/assets/logov1.png)
 collections:
   designs:
     output: true
