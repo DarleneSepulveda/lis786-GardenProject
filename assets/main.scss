@@ -9,6 +9,12 @@
     box-shadow: -1px 0px 4px rgb(207, 207, 207);
     padding: 1px;
 }
+.logo{
+    top: 0px;
+    height:60px;
+    width:60px;
+    align:left;
+}
 //The Garden Project Size
 .site-title{
     font-size: 35px;
@@ -17,12 +23,7 @@
 .site-title:hover{
     color:red;
 }
-.logo{
-    top: 0px;
-    height:60px;
-    width:60px;
-    align:left;
-}
+
 a:hover {
     text-decoration: none;
   }
