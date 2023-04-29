@@ -1,11 +1,12 @@
 <header class="site-header">
 
     <div class="wrapper">
+        <img src="https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png" class="logo" alt="Plant in a pot, serving as site logo.">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <img src="https://raw.githubusercontent.com/DarleneSepulveda/lis786-GardenProject/main/assets/logov1.png" class="logo" alt="Plant in a pot, serving as site logo.">
+      
       
   
       {%- if titles_size > 0 -%}
