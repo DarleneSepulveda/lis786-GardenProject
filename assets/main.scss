@@ -12,6 +12,7 @@
 //The Garden Project Size
 .site-title{
     font-size: 35px;
+    display: inline-block;
 }
 .site-title:hover{
     color:red;
@@ -20,7 +21,6 @@
     top: 10px;
     height:60px;
     width:60px;
-    display: inline-block;
     box-align:left justify;
 }
 a:hover {
