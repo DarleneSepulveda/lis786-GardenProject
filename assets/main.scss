@@ -11,11 +11,17 @@
 }
 .logo{
     position:relative;
-    height:60px;
-    width:60px;
+    height:80px;
+    width:80px;
     float: left;
     margin-left: 400px;
     top: -10px;
+}
+.logoAlt{
+    display: hidden;
+}
+.logoAlt:hover{
+    display:show;
 }
 //The Garden Project Size
 .site-title{
