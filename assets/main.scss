@@ -24,9 +24,10 @@
     float: left;
     margin-left: 400px;
     top: -10px;
+    opacity: 0;
 }
 .logoAlt:hover{
-    display:show;
+    opacity: 1;
 }
 //The Garden Project Size
 .site-title{
