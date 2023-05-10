@@ -47,6 +47,8 @@ layout: home
 
 <h3>Recent Designs</h3>
 {% for design in site.designs %}
-        <h4>{{ design.title }}</h4>
-        <p><img src="{{design.product_image}}" alt="{{design.img_alt}}"> </p>
+        <div class="column">
+            <h4>{{ design.title }}</h4>
+            <p><img src="{{design.product_image}}" alt="{{design.img_alt}}" width="200" height="200"> </p>
+        </div>
 {% endfor %}
